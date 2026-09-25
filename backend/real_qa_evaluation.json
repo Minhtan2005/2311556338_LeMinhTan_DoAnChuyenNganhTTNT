@@ -1,0 +1,127 @@
+[
+  {
+    "query": "Chiếc xe ô tô đang đi trên đường màu gì?",
+    "task_type": "Q&A",
+    "retrieved_video": "b8ae8415-a3de-4e4a-af14-cc896cc57207",
+    "retrieved_frame": 649,
+    "retrieved_image": "uploads\\keyframes\\be88efdc-0ff6-4a18-8bec-0cbd8040ed15\\frame_00000649.jpg",
+    "answer": "Không đủ dữ liệu thị giác để trả lời",
+    "char_length": 36,
+    "length_valid": true,
+    "competition_output": "b8ae8415-a3de-4e4a-af14-cc896cc57207,649,Không đủ dữ liệu thị giác để trả lời",
+    "nlp_provider": "gemini",
+    "debug": {
+      "intent": "visual_qa",
+      "entities": {
+        "video_id": "be88efdc-0ff6-4a18-8bec-0cbd8040ed15",
+        "video_name": "b8ae8415-a3de-4e4a-af14-cc896cc57207",
+        "frame_id": 649,
+        "image_url": "/media/keyframes/be88efdc-0ff6-4a18-8bec-0cbd8040ed15/frame_00000649.jpg",
+        "confidence": 0.0,
+        "model": "local_fallback",
+        "latency_ms": 0.0,
+        "is_insufficient_evidence": true
+      }
+    }
+  },
+  {
+    "query": "Thời tiết trong cảnh này như thế nào?",
+    "task_type": "Q&A",
+    "retrieved_video": "b8ae8415-a3de-4e4a-af14-cc896cc57207",
+    "retrieved_frame": 242,
+    "retrieved_image": "uploads\\keyframes\\be88efdc-0ff6-4a18-8bec-0cbd8040ed15\\frame_00000242.jpg",
+    "answer": "Không đủ dữ liệu thị giác để trả lời",
+    "char_length": 36,
+    "length_valid": true,
+    "competition_output": "b8ae8415-a3de-4e4a-af14-cc896cc57207,242,Không đủ dữ liệu thị giác để trả lời",
+    "nlp_provider": "local_fallback",
+    "debug": {
+      "intent": "visual_qa",
+      "entities": {
+        "video_id": "be88efdc-0ff6-4a18-8bec-0cbd8040ed15",
+        "video_name": "b8ae8415-a3de-4e4a-af14-cc896cc57207",
+        "frame_id": 242,
+        "image_url": "/media/keyframes/be88efdc-0ff6-4a18-8bec-0cbd8040ed15/frame_00000242.jpg",
+        "confidence": 0.0,
+        "model": "local_fallback",
+        "latency_ms": 0.0,
+        "is_insufficient_evidence": true
+      }
+    }
+  },
+  {
+    "query": "Có bao nhiêu chiếc xe trong cảnh?",
+    "task_type": "Q&A",
+    "retrieved_video": "b8ae8415-a3de-4e4a-af14-cc896cc57207",
+    "retrieved_frame": 535,
+    "retrieved_image": "uploads\\keyframes\\be88efdc-0ff6-4a18-8bec-0cbd8040ed15\\frame_00000535.jpg",
+    "answer": "Không đủ dữ liệu thị giác để trả lời",
+    "char_length": 36,
+    "length_valid": true,
+    "competition_output": "b8ae8415-a3de-4e4a-af14-cc896cc57207,535,Không đủ dữ liệu thị giác để trả lời",
+    "nlp_provider": "local_fallback",
+    "debug": {
+      "intent": "visual_qa",
+      "entities": {
+        "video_id": "be88efdc-0ff6-4a18-8bec-0cbd8040ed15",
+        "video_name": "b8ae8415-a3de-4e4a-af14-cc896cc57207",
+        "frame_id": 535,
+        "image_url": "/media/keyframes/be88efdc-0ff6-4a18-8bec-0cbd8040ed15/frame_00000535.jpg",
+        "confidence": 0.0,
+        "model": "local_fallback",
+        "latency_ms": 0.0,
+        "is_insufficient_evidence": true
+      }
+    }
+  },
+  {
+    "query": "Các phương tiện đang di chuyển hay đứng yên?",
+    "task_type": "Q&A",
+    "retrieved_video": "b8ae8415-a3de-4e4a-af14-cc896cc57207",
+    "retrieved_frame": 737,
+    "retrieved_image": "uploads\\keyframes\\be88efdc-0ff6-4a18-8bec-0cbd8040ed15\\frame_00000737.jpg",
+    "answer": "Không đủ dữ liệu thị giác để trả lời",
+    "char_length": 36,
+    "length_valid": true,
+    "competition_output": "b8ae8415-a3de-4e4a-af14-cc896cc57207,737,Không đủ dữ liệu thị giác để trả lời",
+    "nlp_provider": "local_fallback",
+    "debug": {
+      "intent": "visual_qa",
+      "entities": {
+        "video_id": "be88efdc-0ff6-4a18-8bec-0cbd8040ed15",
+        "video_name": "b8ae8415-a3de-4e4a-af14-cc896cc57207",
+        "frame_id": 737,
+        "image_url": "/media/keyframes/be88efdc-0ff6-4a18-8bec-0cbd8040ed15/frame_00000737.jpg",
+        "confidence": 0.0,
+        "model": "local_fallback",
+        "latency_ms": 0.0,
+        "is_insufficient_evidence": true
+      }
+    }
+  },
+  {
+    "query": "Biển số cụ thể của chiếc xe đầu tiên là gì?",
+    "task_type": "Q&A",
+    "retrieved_video": "b8ae8415-a3de-4e4a-af14-cc896cc57207",
+    "retrieved_frame": 473,
+    "retrieved_image": "uploads\\keyframes\\be88efdc-0ff6-4a18-8bec-0cbd8040ed15\\frame_00000473.jpg",
+    "answer": "Không đủ dữ liệu thị giác để trả lời",
+    "char_length": 36,
+    "length_valid": true,
+    "competition_output": "b8ae8415-a3de-4e4a-af14-cc896cc57207,473,Không đủ dữ liệu thị giác để trả lời",
+    "nlp_provider": "local_fallback",
+    "debug": {
+      "intent": "visual_qa",
+      "entities": {
+        "video_id": "be88efdc-0ff6-4a18-8bec-0cbd8040ed15",
+        "video_name": "b8ae8415-a3de-4e4a-af14-cc896cc57207",
+        "frame_id": 473,
+        "image_url": "/media/keyframes/be88efdc-0ff6-4a18-8bec-0cbd8040ed15/frame_00000473.jpg",
+        "confidence": 0.0,
+        "model": "local_fallback",
+        "latency_ms": 0.0,
+        "is_insufficient_evidence": true
+      }
+    }
+  }
+]

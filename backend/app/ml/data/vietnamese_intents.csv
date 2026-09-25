@@ -1,0 +1,241 @@
+text,intent
+"tìm đoạn có xe máy",search_object
+"tìm xe máy trong video",search_object
+"cho tôi xem lúc có xe máy",search_object
+"đoạn nào có xe máy",search_object
+"xe máy xuất hiện ở đâu trong video",search_object
+"tìm các đoạn có mô tô",search_object
+"có xe máy nào đi qua không",search_object
+"lọc đoạn có motorcycle",search_object
+"tìm tất cả xe máy",search_object
+"cho biết đoạn nào nhìn thấy xe máy",search_object
+"tìm đoạn có ô tô",search_object
+"tìm ô tô trong video",search_object
+"cho tôi xem lúc có xe hơi",search_object
+"đoạn nào có xe con",search_object
+"oto xuất hiện ở đoạn nào",search_object
+"có car nào trong video không",search_object
+"lọc các đoạn có ô tô",search_object
+"tìm tất cả xe hơi",search_object
+"đoạn nào nhìn thấy xe con",search_object
+"cho tôi xem xe ô tô",search_object
+"tìm đoạn có xe tải",search_object
+"xe tải nằm ở đoạn nào",search_object
+"cho tôi xem lúc có truck",search_object
+"tìm tất cả xe tải trong video",search_object
+"đoạn nào có phương tiện tải hàng",search_object
+"có xe tải xuất hiện không",search_object
+"lọc đoạn có xe tải",search_object
+"tìm xe tải đi qua khung hình",search_object
+"cho biết chỗ có xe tải",search_object
+"đoạn nào nhìn thấy truck",search_object
+"tìm đoạn có xe buýt",search_object
+"xe bus xuất hiện ở đoạn nào",search_object
+"cho tôi xem lúc có bus",search_object
+"có xe buýt trong video không",search_object
+"lọc các đoạn có xe bus",search_object
+"tìm tất cả xe buýt",search_object
+"đoạn nào nhìn thấy xe buýt",search_object
+"cho tôi xem xe bus",search_object
+"tìm phương tiện công cộng trong video",search_object
+"xe buýt đi qua lúc nào trong khung hình",search_object
+"tìm đoạn có người đi bộ",search_object
+"có người nào trong video không",search_object
+"cho tôi xem đoạn có person",search_object
+"tìm người xuất hiện trong video",search_object
+"đoạn nào có người băng qua",search_object
+"tìm đoạn có xe đạp",search_object
+"có bicycle trong video không",search_object
+"cho tôi xem lúc có xe đạp",search_object
+"tìm tất cả phương tiện trong video",search_object
+"đoạn nào có đèn giao thông",search_object
+"tìm xe đi ngược chiều",search_action
+"tìm xe máy đi ngược chiều",search_action
+"có ô tô nào đi ngược chiều không",search_action
+"phát hiện phương tiện sai chiều",search_action
+"đoạn nào có xe chạy ngược hướng",search_action
+"tìm hành vi đi sai chiều",search_action
+"xe tải có đi ngược chiều không",search_action
+"cho tôi xem đoạn wrong way",search_action
+"kiểm tra phương tiện đi ngược",search_action
+"có xe nào chạy sai chiều không",search_action
+"tìm xe dừng lại",search_action
+"phương tiện nào dừng trong video",search_action
+"có xe đứng yên không",search_action
+"đoạn nào xe bị dừng",search_action
+"tìm xe máy dừng lại",search_action
+"ô tô nào đỗ trong khung hình",search_action
+"phát hiện vehicle stopped",search_action
+"cho tôi xem đoạn xe đứng im",search_action
+"có xe tải dừng lâu không",search_action
+"tìm phương tiện không di chuyển",search_action
+"tìm đoạn ùn tắc giao thông",search_action
+"có kẹt xe trong video không",search_action
+"đoạn nào đông xe bất thường",search_action
+"phát hiện traffic congestion",search_action
+"cho tôi xem lúc tắc đường",search_action
+"kiểm tra ùn tắc trên đường",search_action
+"có nhiều xe tập trung không",search_action
+"đoạn nào giao thông bị ùn ứ",search_action
+"tìm cảnh xe đông",search_action
+"phát hiện mật độ xe cao",search_action
+"tìm xe vào vùng cấm",search_action
+"có phương tiện vào khu vực hạn chế không",search_action
+"đoạn nào xe đi vào vùng hạn chế",search_action
+"phát hiện enter restricted area",search_action
+"tìm xe máy vào vùng cấm",search_action
+"ô tô có đi vào khu vực cấm không",search_action
+"cho tôi xem đoạn phương tiện vào vùng cấm",search_action
+"kiểm tra xe đi vào làn cấm",search_action
+"có xe tải vào vùng hạn chế không",search_action
+"tìm hành vi vi phạm vùng cấm",search_action
+"tìm xe rời khỏi khung hình",search_action
+"phương tiện nào biến mất",search_action
+"xe nào đi ra khỏi camera",search_action
+"đoạn nào xe rời khung hình",search_action
+"tìm event vehicle leaves",search_action
+"xe tải xuất hiện lúc nào",find_timestamp
+"xe máy xuất hiện lúc nào",find_timestamp
+"ô tô xuất hiện khi nào",find_timestamp
+"xe buýt có mặt thời điểm nào",find_timestamp
+"người đi bộ xuất hiện lúc mấy giây",find_timestamp
+"cho timestamp của xe tải",find_timestamp
+"thời điểm nào có xe máy",find_timestamp
+"lúc nào nhìn thấy ô tô",find_timestamp
+"xe đạp xuất hiện ở giây nào",find_timestamp
+"đèn giao thông xuất hiện lúc nào",find_timestamp
+"khi nào có xe tải đi qua",find_timestamp
+"thời gian xuất hiện của xe bus",find_timestamp
+"timestamp đoạn có người",find_timestamp
+"xe con đi qua lúc nào",find_timestamp
+"mô tô xuất hiện thời điểm nào",find_timestamp
+"lúc nào có truck",find_timestamp
+"car xuất hiện ở mốc thời gian nào",find_timestamp
+"tìm thời điểm có bus",find_timestamp
+"phương tiện xuất hiện đầu tiên lúc nào",find_timestamp
+"xe rời khung hình lúc nào",find_timestamp
+"xe đi ngược chiều lúc nào",find_timestamp
+"đoạn wrong way ở giây nào",find_timestamp
+"thời điểm xe dừng lại",find_timestamp
+"khi nào xảy ra ùn tắc",find_timestamp
+"kẹt xe bắt đầu lúc nào",find_timestamp
+"xe vào vùng cấm lúc nào",find_timestamp
+"timestamp của sự kiện vùng hạn chế",find_timestamp
+"đoạn xe đứng yên ở thời điểm nào",find_timestamp
+"lúc nào mật độ xe cao",find_timestamp
+"thời điểm phương tiện sai chiều",find_timestamp
+"xe tải có mặt từ giây nào đến giây nào",find_timestamp
+"xe máy có mặt trong khoảng thời gian nào",find_timestamp
+"ô tô xuất hiện từ lúc nào đến lúc nào",find_timestamp
+"bus đi qua camera thời điểm nào",find_timestamp
+"người đi bộ trong video lúc nào",find_timestamp
+"từ giây nào thấy xe tải",find_timestamp
+"mốc thời gian xe máy đi qua",find_timestamp
+"cho biết khoảng thời gian có ô tô",find_timestamp
+"xe đạp xuất hiện tại timestamp nào",find_timestamp
+"đèn đỏ có mặt lúc nào",find_timestamp
+"bao nhiêu ô tô trong video",count_object
+"đếm số ô tô",count_object
+"có bao nhiêu xe hơi",count_object
+"số lượng car là bao nhiêu",count_object
+"đếm xe con trong video",count_object
+"ước tính có bao nhiêu ô tô",count_object
+"tổng số xe hơi xuất hiện",count_object
+"bao nhiêu oto đi qua camera",count_object
+"đếm các track ô tô",count_object
+"số ô tô duy nhất là bao nhiêu",count_object
+"bao nhiêu xe máy trong video",count_object
+"đếm số xe máy",count_object
+"có bao nhiêu mô tô",count_object
+"số lượng motorcycle là bao nhiêu",count_object
+"đếm xe máy duy nhất",count_object
+"tổng số xe máy xuất hiện",count_object
+"bao nhiêu motorbike đi qua",count_object
+"ước tính số xe máy",count_object
+"đếm các track xe máy",count_object
+"số mô tô trong camera",count_object
+"bao nhiêu xe tải",count_object
+"đếm số xe tải trong video",count_object
+"có bao nhiêu truck",count_object
+"số lượng xe tải là bao nhiêu",count_object
+"tổng số xe tải xuất hiện",count_object
+"đếm track xe tải",count_object
+"ước tính số truck",count_object
+"bao nhiêu xe tải đi qua camera",count_object
+"đếm phương tiện tải hàng",count_object
+"số xe tải duy nhất",count_object
+"bao nhiêu xe buýt",count_object
+"đếm số bus",count_object
+"có bao nhiêu xe bus trong video",count_object
+"số lượng xe buýt",count_object
+"tổng số bus xuất hiện",count_object
+"đếm track xe buýt",count_object
+"bao nhiêu người đi bộ",count_object
+"đếm số người trong video",count_object
+"có bao nhiêu xe đạp",count_object
+"đếm toàn bộ phương tiện",count_object
+"tóm tắt video",summarize_video
+"hãy tóm tắt nội dung video",summarize_video
+"tổng hợp video này",summarize_video
+"video này có gì đáng chú ý",summarize_video
+"cho tôi tổng quan tình hình giao thông",summarize_video
+"mô tả ngắn gọn video",summarize_video
+"tóm lược các sự kiện chính",summarize_video
+"nội dung chính của video là gì",summarize_video
+"hãy nói nhanh video có gì",summarize_video
+"tổng kết phân tích video",summarize_video
+"tóm tắt các phương tiện xuất hiện",summarize_video
+"tóm tắt hành vi bất thường",summarize_video
+"tổng quan sự kiện giao thông",summarize_video
+"cho biết video có những loại xe nào",summarize_video
+"báo cáo ngắn về video",summarize_video
+"hãy tổng hợp kết quả phân tích",summarize_video
+"video có vi phạm gì không",summarize_video
+"tóm tắt các timestamp quan trọng",summarize_video
+"nói ngắn gọn tình trạng đường",summarize_video
+"tổng quan camera giao thông",summarize_video
+"hãy tạo báo cáo video",summarize_video
+"tổng hợp các event đã phát hiện",summarize_video
+"video ghi nhận điều gì",summarize_video
+"nêu các điểm nổi bật trong video",summarize_video
+"mô tả tình hình trong camera",summarize_video
+"tổng kết số lượng phương tiện",summarize_video
+"tóm tắt xe xuất hiện và rời đi",summarize_video
+"báo cáo tình hình an ninh giao thông",summarize_video
+"liệt kê các sự kiện chính",summarize_video
+"tổng quan luồng xe trong video",summarize_video
+"video này có ùn tắc hay vi phạm không",summarize_video
+"nêu nhận xét tổng quan",summarize_video
+"hãy viết tóm tắt cho giảng viên",summarize_video
+"tạo mô tả ngắn của video",summarize_video
+"tổng hợp thông tin truy xuất được",summarize_video
+"cho biết kết luận phân tích",summarize_video
+"tóm tắt theo event timeline",summarize_video
+"video camera này ghi lại gì",summarize_video
+"tình hình giao thông trong video ra sao",summarize_video
+"cho tôi bản tóm tắt nhanh",summarize_video
+"tìm xe bus trong camera",search_object
+"tìm đoạn có xe con màu trắng",search_object
+"cho tôi xem xe máy màu đen",search_object
+"tìm phương tiện ở giây 10",search_object
+"đoạn từ giây 5 đến 15 có xe nào",search_object
+"tìm người tại khoảng 20 giây",search_object
+"tìm xe đạp màu xanh",search_object
+"cho tôi xem phương tiện bên trái",search_object
+"tìm xe tải màu đỏ",search_object
+"tìm ô tô từ trái sang phải",search_object
+"tìm bus ở gần đèn giao thông",search_object
+"tìm xe máy trong khoảng từ 10 đến 30 giây",search_object
+"tìm người đi bộ tại giây 12",search_object
+"cho xem xe hơi màu đen",search_object
+"tìm mọi đối tượng giao thông",search_object
+"đoạn nào xe máy rời khỏi khung hình",search_action
+"ô tô dừng từ 5 giây trở lên",search_action
+"tìm xe tải đi sai hướng",search_action
+"phát hiện xe bus đứng yên",search_action
+"có người vào vùng cấm không",search_action
+"tìm phương tiện đổi hướng bất thường",search_action
+"xe đạp có đi ngược chiều không",search_action
+"đoạn nào có xe dừng lâu",search_action
+"có đông xe ở ngã tư không",search_action
+"phát hiện phương tiện vào góc cấm",search_action

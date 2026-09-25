@@ -1,0 +1,53 @@
+# Backup
+_backup_before_hybrid/
+
+# HuggingFace cache
+data/huggingface/
+
+# Runtime databases
+data/*.db
+*.db
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+
+# Secrets
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs and cache
+*.log
+.cache/
+.pytest_cache/
+
+# Runtime data
+uploads/
+temp/
+tmp/
+runs/
+
+# IDE
+.vscode/
+.idea/
+.npm-cache/
+.pip-cache/
+.tmp/
+**/.pytest_tmp/
+**/.pytest_cache/
+backend/data/huggingface/
+backend/data/yolo_world_cache/
+backend/data/*.whl
+*.err

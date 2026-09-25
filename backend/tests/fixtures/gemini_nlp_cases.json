@@ -1,0 +1,193 @@
+[
+  {
+    "query": "Tim nguoi mac ao do",
+    "expected_task_type": "KIS",
+    "mocked_response": {
+      "task_type": "KIS",
+      "legacy_intent": null,
+      "normalized_query_vi": "Nguoi mac ao do",
+      "semantic_query_en": "a person wearing a red shirt",
+      "objects": [{"type": "person", "attributes": {"upper_color": "red"}}],
+      "actions": [],
+      "relations": [],
+      "spatial": [],
+      "count": null,
+      "question": null,
+      "events": [],
+      "confidence": 0.94
+    }
+  },
+  {
+    "query": "Tim canh mot nguoi ao do dung canh xe may trang",
+    "expected_task_type": "KIS",
+    "mocked_response": {
+      "task_type": "KIS",
+      "legacy_intent": null,
+      "normalized_query_vi": "Nguoi ao do dung canh xe may trang",
+      "semantic_query_en": "a person wearing a red shirt standing next to a white motorcycle",
+      "objects": [
+        {"type": "person", "attributes": {"upper_color": "red"}},
+        {"type": "motorcycle", "attributes": {"vehicle_color": "white"}}
+      ],
+      "actions": ["standing"],
+      "relations": [{"subject": "person", "relation": "next_to", "object": "motorcycle"}],
+      "spatial": ["next_to"],
+      "count": null,
+      "question": null,
+      "events": [],
+      "confidence": 0.96
+    }
+  },
+  {
+    "query": "Tim canh nguoi dan ong buoc xuong o to",
+    "expected_task_type": "KIS",
+    "mocked_response": {
+      "task_type": "KIS",
+      "legacy_intent": null,
+      "normalized_query_vi": "Nguoi dan ong buoc xuong o to",
+      "semantic_query_en": "a man exiting a car",
+      "objects": [
+        {"type": "person", "attributes": {"gender_description": "man"}},
+        {"type": "car", "attributes": {}}
+      ],
+      "actions": ["exiting"],
+      "relations": [{"subject": "person", "relation": "exiting", "object": "car"}],
+      "spatial": [],
+      "count": null,
+      "question": null,
+      "events": [],
+      "confidence": 0.93
+    }
+  },
+  {
+    "query": "Co bao nhieu nguoi trong canh nay?",
+    "expected_task_type": "Q&A",
+    "mocked_response": {
+      "task_type": "Q&A",
+      "legacy_intent": null,
+      "normalized_query_vi": "Co bao nhieu nguoi trong canh nay?",
+      "semantic_query_en": null,
+      "objects": [{"type": "person", "attributes": {}}],
+      "actions": [],
+      "relations": [],
+      "spatial": [],
+      "count": null,
+      "question": "How many people are in this scene?",
+      "events": [],
+      "confidence": 0.91
+    }
+  },
+  {
+    "query": "Chiec xe trong canh nay mau gi?",
+    "expected_task_type": "Q&A",
+    "mocked_response": {
+      "task_type": "Q&A",
+      "legacy_intent": null,
+      "normalized_query_vi": "Chiec xe trong canh nay mau gi?",
+      "semantic_query_en": null,
+      "objects": [{"type": "car", "attributes": {}}],
+      "actions": [],
+      "relations": [],
+      "spatial": [],
+      "count": null,
+      "question": "What color is the vehicle in this scene?",
+      "events": [],
+      "confidence": 0.9
+    }
+  },
+  {
+    "query": "Tim canh nguoi xuong xe roi di vao cua hang sau do quay lai xe",
+    "expected_task_type": "TRAKE",
+    "expected_events": 3,
+    "mocked_response": {
+      "task_type": "TRAKE",
+      "legacy_intent": null,
+      "normalized_query_vi": "Nguoi xuong xe roi di vao cua hang sau do quay lai xe",
+      "semantic_query_en": null,
+      "objects": [{"type": "person", "attributes": {}}, {"type": "vehicle", "attributes": {}}],
+      "actions": ["exiting", "entering"],
+      "relations": [],
+      "spatial": [],
+      "count": null,
+      "question": null,
+      "events": [
+        {"order": 1, "description_vi": "Nguoi xuong xe", "semantic_query_en": "a person exits a vehicle", "objects": [], "actions": ["exiting"], "relations": []},
+        {"order": 2, "description_vi": "Nguoi di vao cua hang", "semantic_query_en": "a person enters a store", "objects": [], "actions": ["entering"], "relations": []},
+        {"order": 3, "description_vi": "Nguoi quay lai xe", "semantic_query_en": "a person returns to the vehicle", "objects": [], "actions": [], "relations": []}
+      ],
+      "confidence": 0.92
+    }
+  },
+  {
+    "query": "Dem so xe may",
+    "expected_task_type": "LEGACY",
+    "mocked_response": {
+      "task_type": "LEGACY",
+      "legacy_intent": "count_object",
+      "normalized_query_vi": "Dem so xe may",
+      "semantic_query_en": null,
+      "objects": [{"type": "motorcycle", "attributes": {}}],
+      "actions": [],
+      "relations": [],
+      "spatial": [],
+      "count": null,
+      "question": null,
+      "events": [],
+      "confidence": 0.88
+    }
+  },
+  {
+    "query": "Tom tat video",
+    "expected_task_type": "LEGACY",
+    "mocked_response": {
+      "task_type": "LEGACY",
+      "legacy_intent": "summarize_video",
+      "normalized_query_vi": "Tom tat video",
+      "semantic_query_en": null,
+      "objects": [],
+      "actions": [],
+      "relations": [],
+      "spatial": [],
+      "count": null,
+      "question": null,
+      "events": [],
+      "confidence": 0.9
+    }
+  },
+  {
+    "query": "Tim nguoi mang ba lo di qua duong",
+    "expected_task_type": "KIS",
+    "mocked_response": {
+      "task_type": "KIS",
+      "legacy_intent": null,
+      "normalized_query_vi": "Nguoi mang ba lo di qua duong",
+      "semantic_query_en": "a person wearing a backpack crossing a road",
+      "objects": [{"type": "person", "attributes": {"backpack": true}}, {"type": "backpack", "attributes": {}}],
+      "actions": ["crossing"],
+      "relations": [{"subject": "person", "relation": "carrying", "object": "backpack"}],
+      "spatial": [],
+      "count": null,
+      "question": null,
+      "events": [],
+      "confidence": 0.94
+    }
+  },
+  {
+    "query": "Tim canh mot nguoi cam tui dung gan o to",
+    "expected_task_type": "KIS",
+    "mocked_response": {
+      "task_type": "KIS",
+      "legacy_intent": null,
+      "normalized_query_vi": "Nguoi cam tui dung gan o to",
+      "semantic_query_en": "a person carrying a bag standing near a car",
+      "objects": [{"type": "person", "attributes": {}}, {"type": "bag", "attributes": {}}, {"type": "car", "attributes": {}}],
+      "actions": ["carrying", "standing"],
+      "relations": [{"subject": "person", "relation": "near", "object": "car"}, {"subject": "person", "relation": "carrying", "object": "bag"}],
+      "spatial": ["near"],
+      "count": null,
+      "question": null,
+      "events": [],
+      "confidence": 0.95
+    }
+  }
+]

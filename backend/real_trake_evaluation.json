@@ -1,0 +1,141 @@
+[
+  {
+    "query": "Tìm cảnh xe ô tô di chuyển rồi dừng lại",
+    "task_type": "TRAKE",
+    "nlp_provider": "gemini",
+    "status": "ok",
+    "answer": "Đã xác định thành công chuỗi 2 sự kiện theo thứ tự thời gian.",
+    "parsed_events": [
+      {
+        "order": 1,
+        "description_vi": "xe ô tô di chuyển",
+        "semantic_query_en": "a car moving"
+      },
+      {
+        "order": 2,
+        "description_vi": "dừng lại",
+        "semantic_query_en": "a car stopping"
+      }
+    ],
+    "selected_video_name": "b8ae8415-a3de-4e4a-af14-cc896cc57207",
+    "selected_video_id": "be88efdc-0ff6-4a18-8bec-0cbd8040ed15",
+    "selected_frames": [
+      65,
+      150
+    ],
+    "sequence_score": 0.3505,
+    "alignments": [
+      {
+        "order": 1,
+        "event_description": "xe ô tô di chuyển",
+        "frame_id": 65,
+        "timestamp": 2.9976105137395463,
+        "similarity_score": 0.302,
+        "image_url": "/media/keyframes/be88efdc-0ff6-4a18-8bec-0cbd8040ed15/frame_00000065.jpg",
+        "image_path": "uploads\\keyframes\\be88efdc-0ff6-4a18-8bec-0cbd8040ed15\\frame_00000065.jpg"
+      },
+      {
+        "order": 2,
+        "event_description": "dừng lại",
+        "frame_id": 150,
+        "timestamp": 6.917562724014338,
+        "similarity_score": 0.2989,
+        "image_url": "/media/keyframes/be88efdc-0ff6-4a18-8bec-0cbd8040ed15/frame_00000150.jpg",
+        "image_path": "uploads\\keyframes\\be88efdc-0ff6-4a18-8bec-0cbd8040ed15\\frame_00000150.jpg"
+      }
+    ],
+    "competition_output": "b8ae8415-a3de-4e4a-af14-cc896cc57207,65,150"
+  },
+  {
+    "query": "Người đi bộ xuất hiện rồi xe máy đi qua sau đó ô tô di chuyển",
+    "task_type": "TRAKE",
+    "nlp_provider": "local_fallback",
+    "status": "ok",
+    "answer": "Đã xác định thành công chuỗi 3 sự kiện theo thứ tự thời gian.",
+    "parsed_events": [
+      {
+        "order": 1,
+        "description_vi": "Người đi bộ xuất hiện",
+        "semantic_query_en": "a pedestrian appearing"
+      },
+      {
+        "order": 2,
+        "description_vi": "xe máy đi qua",
+        "semantic_query_en": "a motorcycle passing by"
+      },
+      {
+        "order": 3,
+        "description_vi": "ô tô di chuyển",
+        "semantic_query_en": "a car moving on the road"
+      }
+    ],
+    "selected_video_name": "b8ae8415-a3de-4e4a-af14-cc896cc57207",
+    "selected_video_id": "be88efdc-0ff6-4a18-8bec-0cbd8040ed15",
+    "selected_frames": [
+      390,
+      460,
+      725
+    ],
+    "sequence_score": 0.3641,
+    "alignments": [
+      {
+        "order": 1,
+        "event_description": "Người đi bộ xuất hiện",
+        "frame_id": 390,
+        "timestamp": 17.985663082437277,
+        "similarity_score": 0.286,
+        "image_url": "/media/keyframes/be88efdc-0ff6-4a18-8bec-0cbd8040ed15/frame_00000390.jpg",
+        "image_path": "uploads\\keyframes\\be88efdc-0ff6-4a18-8bec-0cbd8040ed15\\frame_00000390.jpg"
+      },
+      {
+        "order": 2,
+        "event_description": "xe máy đi qua",
+        "frame_id": 460,
+        "timestamp": 21.213859020310636,
+        "similarity_score": 0.3015,
+        "image_url": "/media/keyframes/be88efdc-0ff6-4a18-8bec-0cbd8040ed15/frame_00000460.jpg",
+        "image_path": "uploads\\keyframes\\be88efdc-0ff6-4a18-8bec-0cbd8040ed15\\frame_00000460.jpg"
+      },
+      {
+        "order": 3,
+        "event_description": "ô tô di chuyển",
+        "frame_id": 725,
+        "timestamp": 33.43488649940263,
+        "similarity_score": 0.3047,
+        "image_url": "/media/keyframes/be88efdc-0ff6-4a18-8bec-0cbd8040ed15/frame_00000725.jpg",
+        "image_path": "uploads\\keyframes\\be88efdc-0ff6-4a18-8bec-0cbd8040ed15\\frame_00000725.jpg"
+      }
+    ],
+    "competition_output": "b8ae8415-a3de-4e4a-af14-cc896cc57207,390,460,725"
+  },
+  {
+    "query": "Trực thăng hạ cánh rồi người nhảy dù sau đó tên lửa phóng lên",
+    "task_type": "TRAKE",
+    "nlp_provider": "local_fallback",
+    "status": "insufficient_evidence",
+    "answer": "Không đủ dữ liệu thị giác để xác định chuỗi sự kiện",
+    "parsed_events": [
+      {
+        "order": 1,
+        "description_vi": "Trực thăng hạ cánh",
+        "semantic_query_en": "a helicopter hạ cánh"
+      },
+      {
+        "order": 2,
+        "description_vi": "người nhảy dù",
+        "semantic_query_en": "a person parachuting"
+      },
+      {
+        "order": 3,
+        "description_vi": "tên lửa phóng lên",
+        "semantic_query_en": "a rocket phóng lên"
+      }
+    ],
+    "selected_video_name": null,
+    "selected_video_id": null,
+    "selected_frames": [],
+    "sequence_score": 0.0,
+    "alignments": [],
+    "competition_output": null
+  }
+]
