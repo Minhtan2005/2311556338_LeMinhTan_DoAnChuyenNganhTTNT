@@ -1,10 +1,5 @@
 # Trợ lý ảo thông minh hỗ trợ phân tích và truy xuất thông tin trong dữ liệu video giám sát
 
-Đồ án chuyên ngành Trí tuệ nhân tạo.
-
-**Sinh viên:** Lê Minh Tân  
-**MSSV:** 2311556338  
-
 ## Giới thiệu
 
 Hệ thống hỗ trợ phân tích video giám sát bằng trí tuệ nhân tạo, cho phép phát hiện và theo dõi đối tượng, lưu trữ kết quả phân tích, truy xuất theo thời gian và hỗ trợ truy vấn bằng ngôn ngữ tự nhiên.
